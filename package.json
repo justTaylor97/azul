@@ -1,0 +1,23 @@
+{
+  "name": "azul",
+  "version": "0.0.0",
+  "description": "A TCP server and client for playing Azul against real and simulated players.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justTaylor97/azul.git"
+  },
+  "author": {
+    "name": "Taylor Lindsey",
+    "email": "AmnesicOblex@gmail.com",
+    "url": "https://www.linkedin.com/in/taylor-lindsey-b05335209/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justTaylor97/azul/issues"
+  },
+  "homepage": "https://github.com/justTaylor97/azul#readme"
+}
