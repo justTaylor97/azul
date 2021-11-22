@@ -45,5 +45,20 @@ describe("game setup", () => {
         assert.strictEqual(tileSum, 4);
       });
     });
+
+    it("a two player game should have 5 factory displays", () => {
+      let twoPlayerGame = new azul.AzulGame([{}, {}]);
+      assert.strictEqual(twoPlayerGame.factoryDisplays.length, 5);
+    });
+
+    it("a three player game should have 7 factory displays", () => {
+      let twoPlayerGame = new azul.AzulGame([{}, {}, {}]);
+      assert.strictEqual(twoPlayerGame.factoryDisplays.length, 7);
+    });
+
+    it("a four player game should have 9 factory displays", () => {
+      let twoPlayerGame = new azul.AzulGame([{}, {}, {}, {}]);
+      assert.strictEqual(twoPlayerGame.factoryDisplays.length, 9);
+    });
   });
 });
